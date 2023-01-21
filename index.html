@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lsglab</title>
+    <link rel="stylesheet" href="index.css"> 
+    <script src="index.js" defer></script>   
+</head>
+<body>
+    <h1 id="bruh"></h1>
+    <h2>PORTS:</h2>
+    <table>
+        <tr>
+          <th>SERVER</th>
+          <th>OS</th>
+          <th>SSH</th>
+          <th>WEB</th>
+          <th>DATABASE</th>
+          <th>CPU</th>
+          <th>RAM</th>
+        </tr>
+        <tr>
+          <td>deb-srv-web</td>
+          <td>Debian</td>
+          <td>187</td>
+          <td>80</td>
+          <td>---</td>
+          <td>4</td>
+          <td>4</td>
+        </tr>
+        <tr>
+            <td>deb-srv-db</td>
+            <td>Debian</td>
+            <td>420</td>
+            <td>8443</td>
+            <td>3306</td>
+            <td>4</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>arch-srv</td>
+            <td>Arch</td>
+            <td>69</td>
+            <td>---</td>
+            <td>---</td>
+            <td>12</td>
+            <td>8</td>
+          </tr>
+      </table>
+      <p>internal domains: $SERVER.fritz.box, z.B. arch-srv.fritz.box</p>
+      <h2>Services on Ports:</h2>
+        <p>SSH: 187, 420, 69</p>
+        <p>Apache: 80</p>
+        <p>PhpMyAdmin: 8443</p>
+        <p>MariaDB: 3306</p>
+        <h2>arch-srv:</h2>
+        <li>discord bots (PM2 installed)</li>
+        <li>scrapers (database connectivity to deb-srv-db)</li>
+        <li>things that are not web services</li>
+        <h2>deb-srv-db:</h2>
+        <li>database server</li>
+        <h2>deb-srv-web:</h2>
+        <li>websites</li>
+    </body>
+</html>

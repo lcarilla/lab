@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'DOS';
+    src: url('DOS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: DOS;
+    background-color: black;
+    color:greenyellow;
+}
+table{
+    border: 2px solid white;
+    min-width: 80%;
+}
+td{
+    border:1px solid white;
+}
